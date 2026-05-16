@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { GitHub, Linkedin, X } from "lucide-react";
 
 function Footer() {
   return (
@@ -241,7 +241,7 @@ function Footer() {
                 duration-300
                 "
               >
-                <Twitter size={20} />
+                <X size={20} />
               </a>
 
               <a
