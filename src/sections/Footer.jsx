@@ -1,4 +1,4 @@
-import { GitHub, Linkedin, X } from "lucide-react";
+import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -241,7 +241,7 @@ function Footer() {
                 duration-300
                 "
               >
-                <X size={20} />
+                <FaXTwitter size={20} />
               </a>
 
               <a
@@ -265,7 +265,7 @@ function Footer() {
                 duration-300
                 "
               >
-                <Github size={20} />
+                <FaGithub size={20} />
               </a>
 
               <a
@@ -289,7 +289,7 @@ function Footer() {
                 duration-300
                 "
               >
-                <Linkedin size={20} />
+                <FaLinkedin size={20} />
               </a>
             </div>
           </div>
